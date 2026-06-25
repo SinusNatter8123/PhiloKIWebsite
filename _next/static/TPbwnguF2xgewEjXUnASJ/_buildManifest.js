@@ -1,7 +1,12 @@
 self.__BUILD_MANIFEST = {
   "__rewrites": {
     "afterFiles": [],
-    "beforeFiles": [],
+    "beforeFiles": [
+      {
+        "source": "/PhiloKIWebsite//_next/:path+",
+        "destination": "/PhiloKIWebsite/_next/:path+"
+      }
+    ],
     "fallback": []
   },
   "sortedPages": [
